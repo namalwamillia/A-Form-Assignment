@@ -1,0 +1,82 @@
+.container {
+    background-color:rgb(145, 216, 236);
+     border-top: 2px solid #0f0c0c;  
+     border-right: 7px solid #0f0c0c; 
+     border-bottom: 1px solid #0f0c0c;  
+     border-left:none;  
+     width: 80%; 
+    height: 50%;
+    margin: 10PX;  
+}
+
+ 
+.inputs {
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+    
+    border-radius: 10px; 
+   
+ 
+}
+
+ .container h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+ 
+   
+}
+
+label, input, select {
+    width: 40%;
+    margin-bottom: 15px;
+    margin-top: 15px
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+ .inputs h5 {
+    text-align: center;
+}
+.form-container {
+    background-color: aliceblue;
+    width: 95%;
+    min-height: 10%;
+    
+
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff; 
+}
+
+
+
+
+
+ 

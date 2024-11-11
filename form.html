@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1><br>
+        <div class="form-container">
+        <div class="inputs">
+        <form>
+            <p>Let us know how we can improve freeCodeCamp</p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" placeholder="Enter Your Email"><br><br>
+
+            <label for="passward">passward</label>
+            <input type="passward" id="passward" name="passward" placeholder="Enter Your Passward"><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Age" min="20" max="30"><br><br>
+
+
+            <label for="role">Which option best describes your role?</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="manager">Manager</option>
+                <option value="employee">Employee</option>
+                <option value="secretary">Secretary</option>
+            </select><br><br>
+
+            <label for="choice">How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+                 <input type="radio" id="definately" name="prefered-option" value="definatly">
+                 <label for="definatly">Definatly</label><br>
+                 <input type="radio" id="Maybe" name="prefered option" value="Maybe">
+                 <label for="mybe">Maybe</label><br>
+                 <input type="radio" id="Not sure" name="prefered option" value="Not sure">
+                 <label for="not sure">Not sure</label><br><br>
+
+                 <label for="choice">What do you like mostly in WITU?</label>
+                 <select id="choice" name="choice">
+                    <option value="wifi">Select an Option</option>
+                    <option value="wifi">wifi</option>
+                     <option value="lectures">lectures</option>
+                     <option value="management">management</option>
+                     <option value="security">security</option>
+                 </select><br><br>
+
+                 <label for="areas">Things that should be improved in future<br>(Check all that Applies)</label><br><br>
+                 <input type="checkbox" id="developer" name="Developer" value="Front-end project">
+                 <label for="developer"> Front-end project</label><br>
+                 <input type="checkbox" id="developer" name="developer" value="Back-end-project">
+                 <label for="developer"> Back-end project</label><br>
+                 <input type="checkbox" id="developer" name="developer" value="Data Visualization">
+                 <label for="developer"> Data Visualization</label><br><br>
+
+                 
+
+               
+                 <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+                </div>  
+               </form>
+    </div>
+    
+    </div>
+
+    
+
+</div>
+
+</body>
+</html>
